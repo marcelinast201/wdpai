@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+}
+
+section {
+    margin: 30px 90px;
+}
+
+.mobile-header {
+    display: none;
+}
+
+.passRow {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+#pass-1,
+#pass-2,
+#pass-3 {
+    border: 1px solid #2EC721;
+    width: 200px;
+    height: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pass button {
+    background: #2EC721;
+    border-radius: 10px;
+    border: none;
+    height: 35px;
+    width: 150px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.pass button i {
+    margin-left: 2px;
+}
+
+@media only screen and (max-device-width: 420px) {
+    .base-container {
+        overflow: auto;
+        margin: 10px;
+    }
+
+    .passRow {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    #pass-1,
+    #pass-2,
+    #pass-3 {
+        width: 350px;
+        height: 530px;
+    }
+    h2{
+        font-size: 47px;
+    }
+    h3{
+        font-size: 35px;
+    }
+    .pass button i {
+    font-size: 30px;
+    }
+    .pass button {
+
+        height: 60px;
+        width: 260px;
+        font-size: 35px;
+
+}
+}

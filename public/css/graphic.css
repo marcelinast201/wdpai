@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+.mobile-header{
+    display: none;
+}
+section{
+    margin: 30px 90px;
+    overflow: auto;
+}
+table{
+    margin-top: 100px;
+}
+table th{
+    background-color:#2EC721 ;
+    color: white;
+    width:700px;
+    height: 50px;
+    font-size: 19px;
+}
+table td{
+    height: 70px;
+    padding: 15px 10px;
+    font-size: 17px;
+}
+table tr:nth-child(2n){
+    background: #f2f2f2;
+}
+@media only screen and (max-device-width: 420px) {
+table{
+    width: 1500px;
+}
+.graphic{
+    overflow: auto;
+}
+table td{
+    height: 140px;
+}
+table th{
+    height: 80px;
+    font-size:30px ;
+}
+}
+
+
